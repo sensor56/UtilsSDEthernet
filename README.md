@@ -9,8 +9,8 @@ Les fonctions disponibles sont notamment :
 * String getLine(EthernetClient clientIn, char* nomFichierIn, int lineNumberIn, boolean debug) : renvoie vers le client Ethernet une ligne à partir de son numéro
 * int getFileSize(EthernetClient clientIn, char* nomFichierIn, boolean debug) : renvoie vers le client Ethernet la taille d'un fichier
 * void read(EthernetClient clientIn, char* nomFichierIn, boolean debug) : lit et renvoie vers le client Ethernet  le contenu d'un fichier
-* void writeFile(EthernetClient clientIn, char* nomFichierIn, String toWriteIn, boolean debug) : ajoute une ligne + saut de ligne à la fin du fichier
-* void createFile(EthernetClient clientIn, char* nomFichierIn, boolean debug)  : crée un fichier 
+* void writeFile(EthernetClient clientIn, char* nomFichierIn, String toWriteIn, boolean debug) : ajoute une ligne + saut de ligne à la fin du fichier et envoie messages vers le client Ethernet
+* void createFile(EthernetClient clientIn, char* nomFichierIn, boolean debug)  : crée un fichier et envoie messages vers le client Ethernet
 
 Cette librairie est utilisée notamment dans mon projet "The Open Datalogger Project" : 
 https://github.com/sensor56/TheOpenDataloggerProject 
